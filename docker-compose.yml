@@ -1,0 +1,7 @@
+﻿services:
+  app:
+    image: selsec/spring-boot-case-study:v1
+    container_name: spring-boot-case-study
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
