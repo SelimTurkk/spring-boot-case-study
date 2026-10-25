@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
     vb.name = "oyak-devops-spring-boot-vm"
     vb.memory = 4096
     vb.cpus = 2
-    vb.gui = true
+  
   end
 
   config.vm.boot_timeout = 600
